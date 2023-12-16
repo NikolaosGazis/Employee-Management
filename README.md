@@ -17,6 +17,6 @@ To run the script, execute the following command:
 
 ```bash
 ./employee_management_script.sh
-
+```
 **License**
 This project is licensed under the MIT License.
