@@ -18,4 +18,4 @@ To run the script, execute the following command:
 ./employee_management_script.sh
 ```
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/NikolaosGazis/Employee-Management?tab=MIT-1-ov-file).
