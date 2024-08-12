@@ -3,21 +3,19 @@
 ans=-1 # Initiliazing varible for the 'until' loop.
 
 # Main loop to display menu.
-until [ $ans -eq 5 ]
-do
+until [ $ans -eq 5 ]; do
 	# Menu options.
-	echo "----------------------------------------------------------------
-	1. Creation of a file with a company's employers information.
-	2. Addition of an employer.
-	3. Search of an employer based on their ID.
-	4. Show Highest and Lowest wage employee.
-	5. Exit"
-	echo "[SYSTEM] Choose the action you want."
+	echo "----------------------------------------------------------------"
+	echo "1. Creation of a file with a company's employers information."
+	echo "2. Addition of an employer."
+	echo "3. Search of an employer based on their ID."
+	echo "4. Show Highest and Lowest wage employee."
+	echo "5. Exit"
+	echo "[SYSTEM] Choose the action you want:"
 	read ans
 
 	# Validate user input.
-	while [[ $ans != 1 && $ans != 2 && $ans != 3 && $ans != 4 && $ans != 5 ]]
-	do
+	while [[ $ans != 1 && $ans != 2 && $ans != 3 && $ans != 4 && $ans != 5 ]]; do
 		echo "Invalid input. Enter a number from 1 to 5."
 		read ans
 	done
