@@ -1,4 +1,4 @@
-# EmployeeManagement
+# Employee Management
 
 ## Overview
 - A Unix based assignement from University where the program aims to manage a list of employees via a menu of options.
@@ -17,5 +17,6 @@ To run the script, execute the following command:
 ```bash
 ./employee_management_script.sh
 ```
-## License
-This project is licensed under the [MIT License](https://github.com/NikolaosGazis/Employee-Management?tab=MIT-1-ov-file).
+
+### License
+This repository is licensed under the [MIT License](https://github.com/NikolaosGazis/Employee-Management?tab=MIT-1-ov-file).
