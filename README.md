@@ -1,7 +1,7 @@
-# Employee Management
+# Employee Management (Using Shell)
 
 ## Overview
-- A Unix based assignement from University where the program aims to manage a list of employees via a menu of options.
+A Unix based assignement from my University classes where the program aims to manage a list of employees via a menu of options.
 
 ## Features
 
@@ -11,7 +11,8 @@
 - **Graceful Exit:** The menu appears after the completion of each action, ensuring a smooth and continuous user experience until the user chooses to exit.
 
 ## Usage
-
+Clone the repository.
+Open a terminal on the directory that contains the script.
 To run the script, execute the following command:
 
 ```bash
